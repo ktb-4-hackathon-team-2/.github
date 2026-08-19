@@ -2,6 +2,8 @@
 ## 반듯
 > 허리는 펴고, 일은 계속
 
+![LandingPage](./LandingPage.png)
+
 #### 인프라 아키텍처
 ![AI Hackathon](./AI%20Hackathon.png)
 

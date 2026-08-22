@@ -106,6 +106,7 @@ flowchart LR
 자세가 무너진 **시간만큼 개입 강도가 커집니다.** 평상시에는 존재감을 드러내지 않습니다.
 
 | | | |
+|---|---|---|
 | 🟢 **Level 0** | 바른 자세 | 평상시에는 조용히 모니터링만 합니다 |
 | 🟡 **Level 1** | 위젯 신호 | 구석 위젯의 색과 실루엣만 바뀝니다 |
 | 🟠 **Level 2** | 토스트 알림 | 무엇이 문제인지 짧고 구체적으로 안내합니다 |
@@ -167,7 +168,6 @@ flowchart LR
 | 입력 | 웹캠 프레임 (로컬) | **집계 숫자만** (시간대 · 유지율 · 알림 · 문제 횟수) |
 
 판정에 쓰는 좌표는 **다섯 점** — 코, 양쪽 귀, 양쪽 어깨입니다
-([`src/lib/postureDetector.js`](src/lib/postureDetector.js)).
 MediaPipe가 관절 33개를 내주지만, 앉은 자세 판정에 필요한 건 이 다섯 개뿐입니다.
 
 ```mermaid
@@ -192,20 +192,6 @@ flowchart LR
 | 프론트 (이 레포) | React 19 · Vite 7 · Tailwind 4 · MediaPipe Tasks Vision | 온디바이스 추론, 판정, 개입, 전 화면 |
 | 앱 서버 | Spring (`:8080`) | JWT 인증, 리포트 집계·조회, 설정 저장 |
 | AI 서버 | FastAPI (`:8000`) · OpenCV · MediaPipe · Claude | 하루 기록 LLM 분석 |
-
-튀는 값은 EMA(α=0.6)로 눌러, 잠깐 몸을 움직인 것이 경고로 번지지 않게 했습니다.
-서버로 올라가는 건 1분 단위 집계뿐입니다.
-
-## 🚀 실행
-
-```bash
-npm install
-cp .env.example .env   # VITE_API_BASE — 앱 서버 주소
-npm run dev            # http://localhost:5173
-```
-
-개발 문서 [`docs/DEVELOPMENT.md`](docs/DEVELOPMENT.md) ·
-API 명세 [`docs/api-spec.md`](docs/api-spec.md) · [`docs/ai-server-api-spec.md`](docs/ai-server-api-spec.md)
 
 ---
 

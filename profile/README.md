@@ -4,18 +4,17 @@
     <img src="pictures/logo-light.png" alt="반듯 — Posture Guard" width="280">
   </picture>
 </p>
-
 <h3 align="center">몰입은 지키고, 자세는 바로잡습니다.</h3>
-
 <p align="center">
   웹캠 기반 실시간 자세 관리 서비스<br/>
   <sub>Realtime Posture Feedback · Health Care · On-Device AI</sub>
 </p>
-
 <p align="center">
   <a href="https://bandeut.site"><b>bandeut.site ↗</b></a>
 </p>
-
+<p align="center">
+  <img src="https://img.shields.io/badge/🏆_카카오테크부트캠프_AI_해커톤-최우수상-FFCD00?style=for-the-badge&labelColor=1E1E1E" alt="카카오테크 부트캠프 AI 해커톤 최우수상">
+</p>
 <p align="center">
   <img alt="React 19" src="https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white"/>
   <img alt="Vite 7" src="https://img.shields.io/badge/Vite-7-646CFF?logo=vite&logoColor=white"/>

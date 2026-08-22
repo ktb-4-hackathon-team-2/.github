@@ -239,5 +239,3 @@ flowchart LR
     </td>
   </tr>
 </table>
-
-<p align="center"><sub><b>반드시, 반듯.</b></sub></p>

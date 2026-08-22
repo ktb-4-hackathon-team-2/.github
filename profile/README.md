@@ -189,9 +189,9 @@ flowchart LR
 
 | 레이어 | 스택 | 역할 |
 |---|---|---|
-| 프론트 | React 19 · Vite 7 · Tailwind 4 · MediaPipe Tasks Vision | 온디바이스 추론, 판정, 개입, 전 화면 |
-| 앱 서버 | Spring (`:8080`) | JWT 인증, 리포트 집계·조회, 설정 저장 |
-| AI 서버 | FastAPI (`:8000`) · OpenCV · MediaPipe · Claude | 하루 기록 LLM 분석 |
+| **프론트** | ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite_7-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe_Tasks_Vision-0097A7?style=flat-square&logo=google&logoColor=white) | 온디바이스 추론, 판정, 개입, 전 화면 |
+| **앱 서버** `:8080` | ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) | JWT 인증, 리포트 집계·조회, 설정 저장 |
+| **AI 서버** `:8000` | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white) | 하루 기록 LLM 분석 |
 
 ---
 

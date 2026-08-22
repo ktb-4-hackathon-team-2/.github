@@ -91,11 +91,44 @@
 
 카카오테크 부트캠프 해커톤 · Team 2
 
-| 이름 | 파트 |
-|---|---|
-| jimmy.won | AI |
-| lena.cho | AI |
-| daniel.jo | 클라우드 |
-| john.kim | 클라우드 |
-| lina.park | 풀스택 |
-| hoon.lee | 풀스택 |
+<table>
+  <tr>
+    <td align="center" width="130">
+      <a href="https://github.com/Quart512">
+        <img src="https://github.com/Quart512.png?size=120" width="88" alt="jimmy.won"/><br/>
+        <sub><b>jimmy.won</b></sub>
+      </a><br/><sub>AI</sub>
+    </td>
+    <td align="center" width="130">
+      <a href="https://github.com/HyeerinCho">
+        <img src="https://github.com/HyeerinCho.png?size=120" width="88" alt="lena.cho"/><br/>
+        <sub><b>lena.cho</b></sub>
+      </a><br/><sub>AI</sub>
+    </td>
+    <td align="center" width="130">
+      <a href="https://github.com/circlepaper">
+        <img src="https://github.com/circlepaper.png?size=120" width="88" alt="daniel.jo"/><br/>
+        <sub><b>daniel.jo</b></sub>
+      </a><br/><sub>클라우드</sub>
+    </td>
+    <td align="center" width="130">
+      <a href="https://github.com/minjae196">
+        <img src="https://github.com/minjae196.png?size=120" width="88" alt="john.kim"/><br/>
+        <sub><b>john.kim</b></sub>
+      </a><br/><sub>클라우드</sub>
+    </td>
+    <td align="center" width="130">
+      <a href="https://github.com/sohyuunii">
+        <img src="https://github.com/sohyuunii.png?size=120" width="88" alt="lina.park"/><br/>
+        <sub><b>lina.park</b></sub>
+      </a><br/><sub>풀스택</sub>
+    </td>
+    <td align="center" width="130">
+      <a href="https://github.com/h26n">
+        <img src="https://github.com/h26n.png?size=120" width="88" alt="hoon.lee"/><br/>
+        <sub><b>hoon.lee</b></sub>
+      </a><br/><sub>풀스택</sub>
+    </td>
+  </tr>
+</table>
+

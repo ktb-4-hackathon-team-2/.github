@@ -189,7 +189,7 @@ flowchart LR
 
 | 레이어 | 스택 | 역할 |
 |---|---|---|
-| 프론트 (이 레포) | React 19 · Vite 7 · Tailwind 4 · MediaPipe Tasks Vision | 온디바이스 추론, 판정, 개입, 전 화면 |
+| 프론트 | React 19 · Vite 7 · Tailwind 4 · MediaPipe Tasks Vision | 온디바이스 추론, 판정, 개입, 전 화면 |
 | 앱 서버 | Spring (`:8080`) | JWT 인증, 리포트 집계·조회, 설정 저장 |
 | AI 서버 | FastAPI (`:8000`) · OpenCV · MediaPipe · Claude | 하루 기록 LLM 분석 |
 

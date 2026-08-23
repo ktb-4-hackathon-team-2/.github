@@ -188,10 +188,10 @@ flowchart LR
 
 | 레이어 | 스택 | 역할 |
 |---|---|---|
-| **프론트** | ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite_7-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe_Tasks_Vision-0097A7?style=flat-square&logo=google&logoColor=white) | 온디바이스 추론, 판정, 개입, 전 화면 |
-| **앱 서버** `:8080` | ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) | JWT 인증, 리포트 집계·조회, 설정 저장 |
+| **프론트** | ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite_7-646CFF?style=flat-square&logo=vite&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe_Tasks_Vision-0097A7?style=flat-square&logo=google&logoColor=white) | 온디바이스 추론, 판정, 개입, 전 화면 |
+| **앱 서버** `:8080` | ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) | JWT 인증, 리포트 집계·조회, 설정 저장 |
 | **AI 서버** `:8000` | ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square&logo=google&logoColor=white) ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white) | 하루 기록 LLM 분석 |
-
+| **인프라** | ![Route 53](https://img.shields.io/badge/Route_53-8C4FFF?style=flat-square&logo=amazonroute53&logoColor=white) ![CloudFront](https://img.shields.io/badge/CloudFront-8C4FFF?style=flat-square&logo=amazoncloudfront&logoColor=white) ![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white) ![RDS](https://img.shields.io/badge/RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white) | DNS, 정적 배포·CDN, 서버 호스팅, DB 관리형 운영 |
 ---
 
 ## 👥 팀
